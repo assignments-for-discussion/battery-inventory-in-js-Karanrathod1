@@ -8,6 +8,16 @@ function countBatteriesByUsage(cycles) {
   };
 }
 
+
+
+
+
+
+
+
+
+
+
 function testBucketingByNumberOfCycles() {
   console.log('Counting batteries by usage cycles...')
   counts = countBatteriesByUsage([100, 300, 500, 600, 900, 1000]);
@@ -16,5 +26,4 @@ function testBucketingByNumberOfCycles() {
   assert(counts["highCount"] == 1);
   console.log("Done counting :)");
 }
-
 testBucketingByNumberOfCycles();
